@@ -10,6 +10,13 @@ Add this as an Add-on Site to the Android SDK Manager:
         https://raw.github.com/grantland/xposed-add-on/master/repository/addon.xml
 
 * Install `Xposed Bridge APIs`
+* Add Xposed Bridge as your compile SDK version in your `build.gradle`
+
+        android {
+            compileSdkVersion "rovo89:Xposed Bridge APIs:19"
+            
+            ...
+        }
 
 
 ## Notes
