@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdk:sdk-addon xmlns:sdk="http://schemas.android.com/sdk/android/addon/5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <sdk:license id="xposed-bridge-license" type="text"></sdk:license>
+
+    <sdk:add-on>
+        <sdk:vendor-id>rovo89</sdk:vendor-id>
+        <sdk:vendor-display>rovo89</sdk:vendor-display>
+
+        <sdk:name-id>xposed_bridge_apis</sdk:name-id>
+        <sdk:name-display>Xposed Bridge APIs</sdk:name-display>
+
+        <sdk:description>Android + Xposed Bridge APIs</sdk:description>
+
+        <sdk:api-level>15</sdk:api-level>
+        <sdk:revision>1</sdk:revision>
+
+        <sdk:libs>
+            <sdk:lib>
+                <sdk:name>de.robv.android.xposed</sdk:name>
+            </sdk:lib>
+        </sdk:libs>
+
+        <sdk:archives>
+            <sdk:archive arch="any" os="any">
+                <sdk:size>91964</sdk:size>
+                <sdk:checksum type="sha1">9db25fc801bad393ab0d569b8b455e792c59d618</sdk:checksum>
+                <sdk:url>xposed_bridge_apis-15-r1.zip</sdk:url>
+            </sdk:archive>
+        </sdk:archives>
+        <sdk:uses-license ref="xposed-bridge-license"/>
+    </sdk:add-on>
+
+    <sdk:add-on>
+        <sdk:vendor-id>rovo89</sdk:vendor-id>
+        <sdk:vendor-display>rovo89</sdk:vendor-display>
+
+        <sdk:name-id>xposed_bridge_apis</sdk:name-id>
+        <sdk:name-display>Xposed Bridge APIs</sdk:name-display>
+
+        <sdk:description>Android + Xposed Bridge APIs</sdk:description>
+
+        <sdk:api-level>19</sdk:api-level>
+        <sdk:revision>1</sdk:revision>
+
+        <sdk:libs>
+            <sdk:lib>
+                <sdk:name>de.robv.android.xposed</sdk:name>
+            </sdk:lib>
+        </sdk:libs>
+
+        <sdk:archives>
+            <sdk:archive arch="any" os="any">
+                <sdk:size>90850</sdk:size>
+                <sdk:checksum type="sha1">87d671fc527fce55b446215355b312174ac128d5</sdk:checksum>
+                <sdk:url>xposed_bridge_apis-19-r1.zip</sdk:url>
+            </sdk:archive>
+        </sdk:archives>
+        <sdk:uses-license ref="xposed-bridge-license"/>
+    </sdk:add-on>
+
+</sdk:sdk-addon>
