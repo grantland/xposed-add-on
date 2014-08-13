@@ -11,6 +11,34 @@
 
         <sdk:description>Android + Xposed Bridge APIs</sdk:description>
 
+        <sdk:api-level>14</sdk:api-level>
+        <sdk:revision>1</sdk:revision>
+
+        <sdk:libs>
+            <sdk:lib>
+                <sdk:name>de.robv.android.xposed</sdk:name>
+            </sdk:lib>
+        </sdk:libs>
+
+        <sdk:archives>
+            <sdk:archive arch="any" os="any">
+                <sdk:size>108099</sdk:size>
+                <sdk:checksum type="sha1">ce2c2df9519b7010521464f1359502020afe3ff0</sdk:checksum>
+                <sdk:url>xposed_bridge_apis-14-r1.zip</sdk:url>
+            </sdk:archive>
+        </sdk:archives>
+        <sdk:uses-license ref="xposed-bridge-license"/>
+    </sdk:add-on>
+	
+    <sdk:add-on>
+        <sdk:vendor-id>rovo89</sdk:vendor-id>
+        <sdk:vendor-display>rovo89</sdk:vendor-display>
+
+        <sdk:name-id>xposed_bridge_apis</sdk:name-id>
+        <sdk:name-display>Xposed Bridge APIs</sdk:name-display>
+
+        <sdk:description>Android + Xposed Bridge APIs</sdk:description>
+
         <sdk:api-level>15</sdk:api-level>
         <sdk:revision>1</sdk:revision>
 
